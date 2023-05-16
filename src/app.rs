@@ -104,7 +104,7 @@ fn title_bar_ui(
 }
 
 /// Show some close/maximize/minimize buttons for the native window.
-pub fn close_maximize_minimize(ui: &mut egui::Ui, frame: &mut eframe::Frame) {
+fn close_maximize_minimize(ui: &mut egui::Ui, frame: &mut eframe::Frame) {
     use egui::{Button, RichText};
 
     let button_height = 12.0;
